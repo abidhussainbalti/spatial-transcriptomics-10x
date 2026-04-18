@@ -1,0 +1,87 @@
+# ============================================================
+# Spatial Transcriptomics Project — .gitignore
+# ============================================================
+
+# ----- Large data files (NEVER commit these to GitHub) ------
+# AnnData processed files
+*.h5ad
+*.h5
+
+# Zarr stores (Xenium SpatialData format)
+*.zarr/
+*.zarr
+
+# Raw 10x output directories
+Xenium/
+Visium/
+raw_data/
+*.zip
+*.tar.gz
+*.tar
+
+# HDF5 and other binary data
+*.hdf5
+*.loom
+
+# ----- Python ------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+spatial_env/
+
+# ----- Jupyter -----------------------------------------------
+# Checkpoint files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ----- IDEs and editors -------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ----- Conda -------------------------------------------------
+*.conda
+conda-meta/
+
+# ----- Logs --------------------------------------------------
+*.log
+logs/
+
+# ----- Temporary files ----------------------------------------
+tmp/
+temp/
+*.tmp
+
+# ----- OS files ----------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ----- What IS committed to this repo -----------------------
+# notebooks/*.ipynb          — All analysis notebooks
+# figures/**/*.png           — All output figures
+# docs/methodology.md        — Methodology documentation
+# requirements.txt           — Python dependencies
+# README.md                  — Project overview
+# data/README.md             — Data download instructions
+# .gitignore                 — This file
