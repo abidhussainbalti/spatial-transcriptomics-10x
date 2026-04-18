@@ -267,13 +267,6 @@ See `data/README.md` for details on downloading the real Xenium dataset.
 - **Centrality scores**: spatial network topology per cell cluster
 
 ---
-
-## 📁 Assignment Information
-
-**Course:** Genomics Spatial Methods  
-**Deadline:** 26th April  
-**Submitted by:** [Your Name]  
-
 ---
 
 ## 📄 License
